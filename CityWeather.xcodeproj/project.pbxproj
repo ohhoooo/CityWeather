@@ -21,6 +21,7 @@
 		371115F82D5DDF5000CB417D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371115F72D5DDF5000CB417D /* BaseViewController.swift */; };
 		371115FA2D5DE00800CB417D /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371115F92D5DE00800CB417D /* BaseTableViewCell.swift */; };
 		371115FC2D5DE04300CB417D /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371115FB2D5DE04300CB417D /* BaseViewModel.swift */; };
+		371116002D5DE17A00CB417D /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371115FF2D5DE17A00CB417D /* Observable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		371115F72D5DDF5000CB417D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		371115F92D5DE00800CB417D /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
 		371115FB2D5DE04300CB417D /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		371115FF2D5DE17A00CB417D /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			children = (
 				371115DF2D5DDB9500CB417D /* Application */,
 				371115F22D5DDF2D00CB417D /* Util */,
+				371115FE2D5DE16600CB417D /* Model */,
 				371115ED2D5DDBD200CB417D /* View */,
 				371115E72D5DDBB700CB417D /* Resource */,
 			);
@@ -125,6 +128,14 @@
 				371115FB2D5DE04300CB417D /* BaseViewModel.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		371115FE2D5DE16600CB417D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				371115FF2D5DE17A00CB417D /* Observable.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +222,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				371116002D5DE17A00CB417D /* Observable.swift in Sources */,
 				371115F82D5DDF5000CB417D /* BaseViewController.swift in Sources */,
 				371115E02D5DDB9500CB417D /* AppDelegate.swift in Sources */,
 				371115C92D5DDA6800CB417D /* SceneDelegate.swift in Sources */,
