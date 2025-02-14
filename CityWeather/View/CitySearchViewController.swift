@@ -1,13 +1,13 @@
 //
-//  CityViewController.swift
+//  CitySearchViewController.swift
 //  CityWeather
 //
-//  Created by 김정호 on 2/13/25.
+//  Created by 김정호 on 2/14/25.
 //
 
 import UIKit
 
-class CityViewController: UIViewController {
+class CitySearchViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
