@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+struct WeatherRequest: Encodable {
+    let id: String
+    let lang: String
+    let units: String
+    let appid: String
+}

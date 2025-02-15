@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct IconImageRequest {
+    let query: String
+    
+    init(query: String) {
+        self.query = query + ".png"
+    }
+}
