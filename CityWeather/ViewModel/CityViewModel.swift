@@ -96,7 +96,7 @@ final class CityViewModel: BaseViewModel {
                     self?.fetchIconImage(query: query)
                 }
                 
-                if let query = success.list.first?.weather.description {
+                if let query = success.list.first?.weather.first?.description {
                     self?.fetchPhoto(query: query)
                 }
             case .failure(let failure):
@@ -125,7 +125,6 @@ final class CityViewModel: BaseViewModel {
             switch result {
             case .success(let success):
                 if let query = success.urlsResponse.first?.urls.thumb {
-                    print(query)
                     self?.fetchPhotoImage(query: query)
                 }
             case .failure(let failure):
